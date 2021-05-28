@@ -11,6 +11,20 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
+
+.btn {
+    padding: 15px 25px;
+    background: rebeccapurple;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#buttons .btn +.btn {
+    margin-left: 20px;
+}
